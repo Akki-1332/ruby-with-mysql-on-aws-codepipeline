@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
-cat /root/tmp/pids/server.pid
+cat /home/ec2-user/ruby_app/tmp/pids/server.pid
 if [ $? == 0 ]
 then
 	echo -e "\n server is running, Going to stop it \n"
-	sudo kill `cat /root/tmp/pids/server.pid`
+	kill `cat /home/ec2-user/ruby_app/tmp/pids/server.pid`
 	sleep 3
 	echo -e "Server STOPPED \n"
 else
