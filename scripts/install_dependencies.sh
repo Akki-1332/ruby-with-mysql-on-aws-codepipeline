@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-yum update -y
-yum install gcc git -y 
-amazon-linux-extras install ruby3.0 -y
-yum install ruby-devel -y
-gem install rails
+sudo yum update -y
+sudo yum install gcc git -y 
+sudo amazon-linux-extras install ruby3.0 -y
+sudo yum install ruby-devel -y
+sudo gem install rails
 
