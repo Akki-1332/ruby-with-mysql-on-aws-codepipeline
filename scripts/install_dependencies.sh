@@ -5,4 +5,4 @@ sudo yum install gcc git -y
 sudo amazon-linux-extras install ruby3.0 -y
 sudo yum install ruby-devel -y
 sudo gem install rails
-
+sudo yum install mysql-devel -y

@@ -1,3 +1,4 @@
 #!/usr/bin/bash
 
-cd /home/ec2-user/ && bundle install >>  /var/log/rails.output.log
+sudo chmod o+w Gemfile.lock
+cd /home/ec2-user/ && bundle install
