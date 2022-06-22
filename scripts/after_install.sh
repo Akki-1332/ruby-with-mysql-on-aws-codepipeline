@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
-sudo chmod o+w Gemfile.lock
+sudo chmod 666 /home/ec2-user/Gemfile.lock
 cd /home/ec2-user/ && bundle install
