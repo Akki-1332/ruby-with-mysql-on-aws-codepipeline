@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # verify we can access our webpage successfully
-curl -v localhost:3000
+cat /home/ec2-user/ruby_app/tmp/pids/server.pid
