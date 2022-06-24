@@ -197,7 +197,7 @@ Now navigate to Deployment group page, it's time to create deployment.
 
 ```sh
 Codedeploy uses `Appspec.yml` file to configure anything on selected host. In the Appspec file i have given specified the path of scripts.
-Scripts are stored in `scripts` folder.<br>
+Scripts are stored in `scripts` folder.
 These scripts are going to install all the dependencies and will start the server automatically on port 3000.
 ```
 
@@ -236,8 +236,8 @@ If you find any issue in it then let me know.
 
 <table>
   <tr>
-    <th><a href="https://www.linkedin.com/in/choudharyaakash/"><img src="https://img.icons8.com/color/452/linkedin.png" alt="linkedin" width="30"/><a/></th>
-    <th><a href="mailto:choudharyaakash316@gmail.com"><img src="https://img.icons8.com/color/344/gmail-new.png" alt="Mail" width="30"/><a/>
+    <th><a href="https://www.linkedin.com/in/choudharyaakash/" target="_blank"><img src="https://img.icons8.com/color/452/linkedin.png" alt="linkedin" width="30"/><a/></th>
+    <th><a href="mailto:choudharyaakash316@gmail.com" target="_blank"><img src="https://img.icons8.com/color/344/gmail-new.png" alt="Mail" width="30"/><a/>
 </th>
   </tr>
 </table>
